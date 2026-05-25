@@ -4,7 +4,10 @@ metadata:
   name: incident-log-content
 spec:
   microFrontend: incident-log
-  element: incident-list
+  element: incident-app
+  attributes:
+    - name: base-path
+      value: /incident-log
   displayRules:
     - allOf:
         - context-name: main-content
