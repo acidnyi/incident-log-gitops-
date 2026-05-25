@@ -2,7 +2,7 @@ apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: gitops-repo
-  namespace: wac-hospital
+  namespace: incident-log
 spec:
   interval: 1m0s
   ref:
@@ -10,4 +10,4 @@ spec:
   secretRef:
     name: repository-pat
   timeout: 1m0s
-  url: https://github.com/acidnyi/ambulance-gitops
+  url: https://github.com/acidnyi/incident-log-gitops-
