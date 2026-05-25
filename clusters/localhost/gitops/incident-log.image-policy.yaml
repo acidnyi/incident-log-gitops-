@@ -1,0 +1,13 @@
+apiVersion: image.toolkit.fluxcd.io/v1
+kind: ImagePolicy
+metadata:
+  name: incident-log
+  namespace: incident-log
+spec:
+  imageRepositoryRef:
+    name: incident-log
+  filterTags:
+    pattern: "main.*"
+  policy:
+    alphabetical:
+      order: asc

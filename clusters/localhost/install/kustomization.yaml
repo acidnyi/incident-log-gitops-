@@ -9,3 +9,6 @@ labels:
 
 resources:
 - ../../../apps/incident-log
+
+components:
+- ../../../components/version-developers

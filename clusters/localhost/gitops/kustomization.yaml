@@ -12,3 +12,6 @@ resources:
 - cd.kustomization.yaml
 - install.kustomization.yaml
 - git-repository.yaml
+- incident-log.image-repository.yaml
+- incident-log.image-policy.yaml
+- image-update-automation.yaml
