@@ -3,4 +3,4 @@ kind: Component
 images:
   - name: ergese/incident-log
     newName: ergese/incident-log # {"$imagepolicy": "incident-log:incident-log:name"}
-    newTag: main.20260525.2024 # {"$imagepolicy": "incident-log:incident-log:tag"}
+    newTag: main.20260525.2112 # {"$imagepolicy": "incident-log:incident-log:tag"}
