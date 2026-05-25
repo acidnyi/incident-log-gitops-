@@ -1,0 +1,25 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: incident-log-link
+spec:
+  microFrontend: polyfea-md-shell
+  element: polyfea-md-app
+  attributes:
+    - name: headline
+      value: Hlásenie incidentov
+    - name: short-headline
+      value: IncidentLog
+    - name: supporting-text
+      value: |
+        Spravuje hlásenie incidentov a bezpečnostných udalostí v nemocnici
+    - name: material-icon
+      value: report
+    - name: href
+      value: ./incident-log
+  priority: 10
+  displayRules:
+    - anyOf:
+        - context-name: applications
+        - context-name: rail-content
+        - context-name: drawer-content

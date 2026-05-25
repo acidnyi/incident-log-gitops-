@@ -1,0 +1,9 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: MicroFrontend
+metadata:
+  name: incident-log
+spec:
+  frontendClass: md-shell
+  service:
+    name: incident-log
+  modulePath: build/incident-log.esm.js
