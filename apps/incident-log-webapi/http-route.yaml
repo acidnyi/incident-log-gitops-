@@ -5,7 +5,7 @@ metadata:
 spec:
   parentRefs:
     - name: incident-log-gateway
-      namespace: incident-log
+      namespace: wac-hospital
   rules:
     - matches:
         - path:
