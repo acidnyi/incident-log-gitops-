@@ -4,7 +4,7 @@ metadata:
   name: incident-log-webapi
 spec:
   parentRefs:
-    - name: incident-log-gateway
+    - name: wac-hospital-gateway
       namespace: wac-hospital
   rules:
     - matches:
