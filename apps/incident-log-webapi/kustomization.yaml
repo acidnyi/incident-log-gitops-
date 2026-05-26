@@ -3,3 +3,8 @@ kind: Kustomization
 
 resources:
   - 'https://github.com/acidnyi/incident-log-webapi//deployments/kustomize/install'
+  - openapi-ui.service.yaml
+  - http-route.yaml
+
+#patches:
+#  - path: patches/incident-log-webapi.deployment.yaml

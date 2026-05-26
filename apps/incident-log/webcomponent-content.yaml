@@ -9,7 +9,7 @@ spec:
     - name: base-path
       value: /incident-log
     - name: api-base
-      value: http://localhost:30081/api
+      value: /incident-log-api
     - name: entryId
       value: INC-001
   displayRules:
