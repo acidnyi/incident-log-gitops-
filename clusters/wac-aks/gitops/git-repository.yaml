@@ -2,10 +2,10 @@ apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: incident-log-gitops-repo
-  namespace: incident-log
+  namespace: wac-hospital
 spec:
   interval: 1m0s
   ref:
     branch: main
   timeout: 1m0s
-  url: https://github.com/acidnyi/incident-gitops
+  url: https://github.com/acidnyi/incident-log-gitops-

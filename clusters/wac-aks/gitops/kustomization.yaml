@@ -6,7 +6,7 @@ labels:
       app.kubernetes.io/part-of: incident-log
       app.kubernetes.io/name: incident-log
 
-namespace: incident-log
+namespace: wac-hospital
 
 resources:
   - cd.kustomization.yaml
