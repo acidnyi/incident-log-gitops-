@@ -15,3 +15,5 @@ resources:
 - incident-log.image-repository.yaml
 - incident-log.image-policy.yaml
 - image-update-automation.yaml
+- incident-log-webapi.image-repository.yaml
+- incident-log-webapi.image-policy.yaml

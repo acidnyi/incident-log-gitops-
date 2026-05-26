@@ -1,0 +1,15 @@
+apiVersion: image.toolkit.fluxcd.io/v1
+kind: ImagePolicy
+
+metadata:
+  name: incident-log-webapi
+  namespace: wac-hospital
+
+spec:
+  imageRepositoryRef:
+    name: incident-log-webapi
+  filterTags:
+    pattern: "main.*"
+  policy:
+    alphabetical:
+      order: asc
