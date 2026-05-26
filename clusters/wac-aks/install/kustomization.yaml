@@ -12,6 +12,7 @@ labels:
 
 resources:
   - ../../../apps/incident-log
+  - ../../../apps/incident-log-webapi
 
 components:
   - ../../../components/version-release
