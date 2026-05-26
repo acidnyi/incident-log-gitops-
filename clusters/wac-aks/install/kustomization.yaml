@@ -7,6 +7,7 @@ labels:
   - pairs:
       app.kubernetes.io/part-of: incident-log
       app.kubernetes.io/name: incident-log
+      wac-fiit.github.io/project: incident-log
     includeSelectors: true
     includeTemplates: true
 

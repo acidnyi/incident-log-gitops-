@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: incident-log
+spec:
+  title: "Incident Log System"
+  description: "Spravuje evidenciu nemocničných incidentov a udalostí"
+  authors: "Serhii Kuklych"
+  azureLink: ""
+  frontendRepoUrl: "https://github.com/acidnyi/incident-log"
+  backendRepoUrl: "https://github.com/acidnyi/incident-log-webapi"
+  gitopsRepoUrl: "https://github.com/acidnyi/incident-log-gitops-"
