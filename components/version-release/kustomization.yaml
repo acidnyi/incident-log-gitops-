@@ -4,7 +4,7 @@ kind: Component
 images:
   - name: ergese/incident-log
     newName: ergese/incident-log
-    newTag: 1.0.0
+    newTag: 1.1.0
   - name: ergese/incident-log-webapi
     newName: ergese/incident-log-webapi
     newTag: 1.1.2
